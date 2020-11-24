@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ClassLibrary1;
+using CsvHelper;
 
 namespace ConsoleApp1
 {
@@ -13,6 +14,8 @@ namespace ConsoleApp1
         {
             Class1 class1 = new Class1();
             class1.Test();
+
+            Console.WriteLine(typeof(CsvHelperException));
         }
     }
 }
